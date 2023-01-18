@@ -9,6 +9,8 @@
 ;- Neue Maske soll aktuelles übernehmen (prompt)
 ;- yara
 ;- Datenfeld nachträglich umbenennen
+;- Top permanent regex search + Übername als fild
+;- Checkbox only show lines without any hit
 
 Structure ColorCode
   Color.i
@@ -1624,7 +1626,7 @@ DataSection
   IncludeBinary "Find.png"
 EndDataSection
 ; IDE Options = PureBasic 6.00 LTS (Windows - x64)
-; CursorPosition = 11
+; CursorPosition = 13
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP
