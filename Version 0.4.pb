@@ -1,4 +1,15 @@
-﻿Structure ColorCode
+﻿;Upgrades todo
+;- Doppelklick auf Ergebnis rechts -> Sprung im Editor
+;- Drag 'n Drop von Masken
+;- Sortieren von Datenfelder
+;- Orientierung: Regex ganz oben
+;- Nach unten endlos erweitern
+;- Dark Mode
+;- Zuletzt genutze Dateien / Masken laden
+;- Neue Maske soll aktuelles übernehmen (prompt)
+
+
+Structure ColorCode
   Color.i
   Type.i
   Name.s
@@ -1611,9 +1622,8 @@ DataSection
   image9:
   IncludeBinary "Find.png"
 EndDataSection
-; IDE Options = PureBasic 5.73 LTS (Windows - x64)
-; CursorPosition = 687
-; FirstLine = 383
+; IDE Options = PureBasic 6.00 LTS (Windows - x64)
+; CursorPosition = 8
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP
