@@ -7,7 +7,8 @@
 ;- Dark Mode
 ;- Zuletzt genutze Dateien / Masken laden
 ;- Neue Maske soll aktuelles übernehmen (prompt)
-
+;- yara
+;- Datenfeld nachträglich umbenennen
 
 Structure ColorCode
   Color.i
@@ -1623,7 +1624,7 @@ DataSection
   IncludeBinary "Find.png"
 EndDataSection
 ; IDE Options = PureBasic 6.00 LTS (Windows - x64)
-; CursorPosition = 8
+; CursorPosition = 11
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP
