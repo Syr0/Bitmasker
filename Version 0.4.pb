@@ -14,6 +14,7 @@
 ;- Checkbox Search also HTML Char-Codes
 ;- Move Splitter Mask to left = extend splitter to right!
 ;- Also Change Text Color
+;- ignore rightclicks if the window has no focus
 
 Structure ColorCode
   Color.i
@@ -1629,7 +1630,7 @@ DataSection
   IncludeBinary "Find.png"
 EndDataSection
 ; IDE Options = PureBasic 6.00 LTS (Windows - x64)
-; CursorPosition = 16
+; CursorPosition = 17
 ; FirstLine = 3
 ; Folding = AYAAIAAA+
 ; EnableThread
