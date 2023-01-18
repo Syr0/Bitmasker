@@ -12,7 +12,7 @@
 ;- Top permanent regex search + Übername als fild
 ;- Checkbox only show lines without any hit
 ;- Checkbox Search also HTML Char-Codes
-
+;- Move Splitter Mask to left = extend splitter to right!
 Structure ColorCode
   Color.i
   Type.i
