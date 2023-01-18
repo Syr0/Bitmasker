@@ -11,6 +11,7 @@
 ;- Datenfeld nachträglich umbenennen
 ;- Top permanent regex search + Übername als fild
 ;- Checkbox only show lines without any hit
+;- Checkbox Search also HTML Char-Codes
 
 Structure ColorCode
   Color.i
@@ -1627,6 +1628,7 @@ DataSection
 EndDataSection
 ; IDE Options = PureBasic 6.00 LTS (Windows - x64)
 ; CursorPosition = 13
+; FirstLine = 6
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP
