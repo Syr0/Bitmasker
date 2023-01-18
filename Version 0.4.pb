@@ -13,6 +13,8 @@
 ;- Checkbox only show lines without any hit
 ;- Checkbox Search also HTML Char-Codes
 ;- Move Splitter Mask to left = extend splitter to right!
+;- Also Change Text Color
+
 Structure ColorCode
   Color.i
   Type.i
@@ -1627,8 +1629,8 @@ DataSection
   IncludeBinary "Find.png"
 EndDataSection
 ; IDE Options = PureBasic 6.00 LTS (Windows - x64)
-; CursorPosition = 13
-; FirstLine = 6
+; CursorPosition = 16
+; FirstLine = 3
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP

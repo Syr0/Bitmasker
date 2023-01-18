@@ -33,7 +33,7 @@
       <ReferencePxlName>Ledger_ZIP</ReferencePxlName>
       <ReferenceOffset>0</ReferenceOffset>
       <ReferenceLength>0</ReferenceLength>
-      <Regex>Ledger_Nano_S&amp;X_Security_Patch_Manual.rar</Regex>
+      <Regex>Ledger_Nano_S&amp;?(?:%26)?X_Security_Patch_Manual.rar</Regex>
       <Regex_Grp>0</Regex_Grp>
       <PointerLength>0</PointerLength>
       <Offset>0</Offset>
@@ -45,12 +45,78 @@
         <element>71688</element>
         <element>72229</element>
         <element>72305</element>
+        <element>83364</element>
+        <element>84186</element>
       </StartXe>
       <ExtractedInformation>
         <element>Ledger_Nano_S&amp;X_Security_Patch_Manual.rar</element>
         <element>Ledger_Nano_S&amp;X_Security_Patch_Manual.rar</element>
         <element>Ledger_Nano_S&amp;X_Security_Patch_Manual.rar</element>
         <element>Ledger_Nano_S&amp;X_Security_Patch_Manual.rar</element>
+        <element>Ledger_Nano_S%26X_Security_Patch_Manual.rar</element>
+        <element>Ledger_Nano_S%26X_Security_Patch_Manual.rar</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>16759739</Color>
+      <Type>8</Type>
+      <Name>FilePath</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>([CDFGHIJKL]:\\(?:[^\\^\s]+\\)+)\s</Regex>
+      <Regex_Grp>1</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>67917</element>
+        <element>68408</element>
+        <element>69180</element>
+        <element>69563</element>
+        <element>69945</element>
+        <element>70021</element>
+        <element>70975</element>
+        <element>71051</element>
+        <element>71578</element>
+        <element>71654</element>
+        <element>72195</element>
+        <element>72271</element>
+        <element>72796</element>
+        <element>72872</element>
+        <element>73665</element>
+        <element>73745</element>
+        <element>75022</element>
+        <element>75098</element>
+        <element>76146</element>
+        <element>76222</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
+        <element>C:\Users\Administrator\Downloads\</element>
       </ExtractedInformation>
     </element>
     <element>
@@ -145,50 +211,50 @@
       <ReferencePxlName>Ledger_RAR</ReferencePxlName>
       <ReferenceOffset>0</ReferenceOffset>
       <ReferenceLength>0</ReferenceLength>
-      <Regex>[^\\][Uu]ser(?:name)?</Regex>
-      <Regex_Grp>0</Regex_Grp>
+      <Regex>[^\\]([Uu]ser(?:name)?)</Regex>
+      <Regex_Grp>1</Regex_Grp>
       <PointerLength>0</PointerLength>
       <Offset>0</Offset>
       <ResultLength>0</ResultLength>
       <Multiply>0</Multiply>
       <WerteTabelle/>
       <StartXe>
-        <element>940</element>
-        <element>1143</element>
-        <element>23656</element>
-        <element>23745</element>
-        <element>23847</element>
-        <element>24021</element>
-        <element>24798</element>
-        <element>47555</element>
-        <element>47673</element>
-        <element>47799</element>
-        <element>49037</element>
-        <element>49165</element>
-        <element>49176</element>
-        <element>49300</element>
-        <element>49311</element>
-        <element>70727</element>
-        <element>81936</element>
+        <element>941</element>
+        <element>1144</element>
+        <element>23657</element>
+        <element>23746</element>
+        <element>23848</element>
+        <element>24022</element>
+        <element>24799</element>
+        <element>47556</element>
+        <element>47674</element>
+        <element>47800</element>
+        <element>49038</element>
+        <element>49166</element>
+        <element>49177</element>
+        <element>49301</element>
+        <element>49312</element>
+        <element>70728</element>
+        <element>81937</element>
       </StartXe>
       <ExtractedInformation>
-        <element>Fusername</element>
-        <element>?username</element>
-        <element>/user</element>
-        <element>/user</element>
-        <element>/user</element>
-        <element>/user</element>
-        <element>/user</element>
-        <element>/User</element>
-        <element>/User</element>
-        <element>/User</element>
-        <element>/User</element>
-        <element>/User</element>
-        <element>tUser</element>
-        <element>/User</element>
-        <element>tUser</element>
-        <element>euser</element>
-        <element>euser</element>
+        <element>username</element>
+        <element>username</element>
+        <element>user</element>
+        <element>user</element>
+        <element>user</element>
+        <element>user</element>
+        <element>user</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>User</element>
+        <element>user</element>
+        <element>user</element>
       </ExtractedInformation>
     </element>
     <element>
@@ -392,6 +458,172 @@
       </ExtractedInformation>
     </element>
     <element>
+      <Color>32768</Color>
+      <Type>8</Type>
+      <Name>APIkey</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>([aA][pP][iI])?([aA][uU][tT][hH]?)?-?key(?!word)</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>24650</element>
+        <element>27653</element>
+        <element>34295</element>
+        <element>43253</element>
+        <element>43529</element>
+        <element>43835</element>
+        <element>44141</element>
+        <element>44455</element>
+        <element>68120</element>
+        <element>68241</element>
+        <element>69396</element>
+        <element>69779</element>
+        <element>70297</element>
+        <element>71343</element>
+        <element>71946</element>
+        <element>72495</element>
+        <element>72616</element>
+        <element>74002</element>
+        <element>74416</element>
+        <element>74855</element>
+        <element>75335</element>
+        <element>78119</element>
+        <element>78378</element>
+        <element>78621</element>
+        <element>78765</element>
+        <element>80094</element>
+        <element>80513</element>
+        <element>80932</element>
+        <element>81390</element>
+        <element>81573</element>
+        <element>82247</element>
+        <element>82430</element>
+        <element>82900</element>
+        <element>83083</element>
+        <element>83515</element>
+        <element>83759</element>
+        <element>83904</element>
+        <element>85249</element>
+        <element>85682</element>
+        <element>86154</element>
+        <element>86338</element>
+        <element>86760</element>
+        <element>87177</element>
+        <element>88652</element>
+        <element>89339</element>
+        <element>89761</element>
+        <element>90723</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>key</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>authkey</element>
+        <element>key</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>65535</Color>
+      <Type>8</Type>
+      <Name>sentences</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>([A-Z]?[a-zß-ü][a-zß-ü]+(?:[,|:|;|&amp;|\(|\)|\{|\}|\[|\]]?\s(?:\d+|[a-zA-Z]?[a-zß-ü]*)){3,}+[\.|\?|\!])</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>15464</element>
+        <element>15762</element>
+        <element>17027</element>
+        <element>17325</element>
+        <element>18671</element>
+        <element>23557</element>
+        <element>26990</element>
+        <element>27502</element>
+        <element>27721</element>
+        <element>33632</element>
+        <element>34144</element>
+        <element>34363</element>
+        <element>52306</element>
+        <element>52411</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>How to start sending emails?</element>
+        <element>smtp How to start sending emails?</element>
+        <element>How to start sending emails?</element>
+        <element>How to start sending emails?</element>
+        <element>issue Search For Solutions.</element>
+        <element>dashboard Login to your Sendinblue account.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>Create docs with free Office Online.</element>
+        <element>logout Login to your Sendinblue account.</element>
+        <element>login Login to your Sendinblue account.</element>
+      </ExtractedInformation>
+    </element>
+    <element>
       <Color>8454016</Color>
       <Type>8</Type>
       <Name>Ledger Zip Spaces</Name>
@@ -529,6 +761,184 @@
         <element>ineobn.zip</element>
         <element>ineobn.zip</element>
         <element>ineobn.zip</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>4210816</Color>
+      <Type>8</Type>
+      <Name>New_Profit_Distributions_2022.zip</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>New_Profit_Distributions_2022.zip</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>77049</element>
+        <element>77342</element>
+        <element>77857</element>
+        <element>77924</element>
+        <element>89620</element>
+        <element>90042</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>New_Profit_Distributions_2022.zip</element>
+        <element>New_Profit_Distributions_2022.zip</element>
+        <element>New_Profit_Distributions_2022.zip</element>
+        <element>New_Profit_Distributions_2022.zip</element>
+        <element>New_Profit_Distributions_2022.zip</element>
+        <element>New_Profit_Distributions_2022.zip</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>16711935</Color>
+      <Type>8</Type>
+      <Name>Government_Loan_Programs.zip</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>Government_Loan_Programs.zip</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>74686</element>
+        <element>87041</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>Government_Loan_Programs.zip</element>
+        <element>Government_Loan_Programs.zip</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>12615935</Color>
+      <Type>8</Type>
+      <Name>Ledger Nano Manual </Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>Ledger Nano S/X Security Patch Manual</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>24951</element>
+        <element>25142</element>
+        <element>26347</element>
+        <element>27877</element>
+        <element>32989</element>
+        <element>40828</element>
+        <element>41903</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+        <element>Ledger Nano S/X Security Patch Manual</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>16744576</Color>
+      <Type>8</Type>
+      <Name>rmanual.pdfrmanual.pdfrmanual.pdfrmanual.pdfrmanual.pdf</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>rmanual.pdf</Regex>
+      <Regex_Grp>0</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>29910</element>
+        <element>29922</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>rmanual.pdf</element>
+        <element>rmanual.pdf</element>
+      </ExtractedInformation>
+    </element>
+    <element>
+      <Color>4227327</Color>
+      <Type>8</Type>
+      <Name>Accidential URL googleing</Name>
+      <Endianess>1036</Endianess>
+      <Alignment>1</Alignment>
+      <Abs_Len>0</Abs_Len>
+      <ReferencePxlName>Ledger_RAR</ReferencePxlName>
+      <ReferenceOffset>0</ReferenceOffset>
+      <ReferenceLength>0</ReferenceLength>
+      <Regex>https?:\/\/www\.google\.com\/url\?q=(https?\:\/\/[^\s]+)\s</Regex>
+      <Regex_Grp>1</Regex_Grp>
+      <PointerLength>0</PointerLength>
+      <Offset>0</Offset>
+      <ResultLength>0</ResultLength>
+      <Multiply>0</Multiply>
+      <WerteTabelle/>
+      <StartXe>
+        <element>26477</element>
+        <element>33119</element>
+        <element>42221</element>
+        <element>68568</element>
+        <element>70202</element>
+        <element>71248</element>
+        <element>71851</element>
+        <element>73053</element>
+        <element>74321</element>
+        <element>76403</element>
+        <element>79128</element>
+        <element>81295</element>
+        <element>82152</element>
+        <element>82805</element>
+        <element>84281</element>
+        <element>86059</element>
+        <element>87684</element>
+      </StartXe>
+      <ExtractedInformation>
+        <element>https://ejfegdj.r.af.d.sendibt2.com/tr/cl/PVOYjOsi3Fl3RyQ-ycLEtsgLpiQl4SDFTX0dU11TfTN-xXlFa0Q7nsQuNfKndvfdSgzjHe8fJ0t2XMaQzL7Cy60wAYkUftoG-rmCFP6chdpROLEsqxqDcH12zGTOyrlr402bbLXVNRyxD4o6lax2l0D7CBdE0_nAlJFV_zy8fbw_Q7SPgqVQZSnQPS6gaSj2bTBHhfLTtpifExdipL95-fhDrlORfqRwMVQJO3zfFL5Fu9-xacVUya03dCWoaK9Xhy2aCB38N1apv7ygUr636HWY4QVmiqaprgeoPorBUEEkBeIWOEvWS7blmALpMbVz01nmf_MnGHVZyo-kyti7_pyX4EW7yZcOwpgaWoQ&amp;source=gmail&amp;ust=1658648825715000&amp;usg=AOvVaw3tVaY_F5OWS2EYbFJkBY7F</element>
+        <element>https://ejfegdj.r.af.d.sendibt2.com/tr/cl/hzo8qzWN7bKAxNBwvxFr2jvyE9qsr92TCAZrp4NAFixV5ZDReQBXVuaXKeh6DtygUi6Cd-As64ZBICU6OLcq177T2XMnRH7S5Gx9bW2CSSk5bDPPdNDQl-CiY_y-RJCj1FkDBIh2XHPo9B-Ol5q4UiybvKib9NcOo_9_i4wSz7d5Te5RAqwTdqWjd_qbYcI0xxV1O51U3zYmgzcUrfkdc3RadoNsI6zz-HFOf3y3Y12APGYojfusUg8z8BoubI1-__qRuOnfDEvVjGdyFJBQJ5ijunHkeF7SUFKKQLQ5HzxDGEJwYtL1dhWWapo2X_qbArNM7cufF28BvrRXeYbTwkE0L-SSqNk6SswSUvg&amp;source=gmail&amp;ust=1658798608529000&amp;usg=AOvVaw1rdXwbZa64homebNhZEMwG</element>
+        <element>https://ejgajec.r.af.d.sendibt2.com/tr/cl/xlITMPj0MYKYmFil20NOdyMRsdG9JWU4ipBQsRGWk7c7ab_i7SKaJFK9yr5pwqLxHaRWyCYvSj8ALySnsdF1MPAzdxdiIH7CnOCLIenVUlxzE1LY6_mgVXCSILwmbONgI0MViBOfOFNP7ildJGRK7bCDltppOoTBURk1qpJr56vP3uMRj6-2Nrtxz5fWsjdw_mPbzYQV21nlNYUTxTEsfz5nBRBxGo9eWjNBAZ-4IeIvgIk5BYwlFNDfcN82idYDKzjD6JOgwBQfKye7LYu4M324nYlfPYD5dnFmwjtGDR9IbclHoTs1I22jOxF31_tl7jjDiDzc9WzAyPzIACcGeO0XMnuNhiJAkQkxDDk&amp;source=gmail&amp;ust=1658894726296000&amp;usg=AOvVaw2-dSMTPT1XpwWQTV5QMi_N</element>
+        <element>https://ejfegdj.r.bh.d.sendibt3.com/tr/cl/AfqJ_bURQnK6Nf7Tb4FKYPeyuhlTsl88avyuMiS7oyDtGVMi2JY7LMlZyIKmar1BNaXAuc-VLEXN7MdWn8Qp2cG6Z-EXeqD-mTpgExyBCi7chVa6qV1mluF7C6eeboB7FWYZmy1_xskcNYOq74ftp04NM8HesgMyILqectE4JMwIaSIzpFsycvqpiZ2xOZA0r8i0kpTAy4K8dcPKwP1LBFHRxWo2AiDKE3mDd9z9XF5p-_1Q0kuYiH7Bz1RhyyZ1DuT6-oF0ACJOKAt2saC8v-5scS6ZZQF93Nas9OiCgvdFzvnV-0it22v-8UBlUyNDtz3TntIZuibJsIuOWKkO-HTIpIvbei38H8syFS8&amp;source=gmail&amp;ust=1658668015300000&amp;usg=AOvVaw1u_NjMyKJnrdNfl0QlnafD</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521108%26authkey%3DAN9ah1uyVLrqEX0&amp;source=gmail&amp;ust=1658709746608000&amp;usg=AOvVaw3LKMaq_qcmOAqp0OsWQx9Q</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521108%26authkey%3DAN9ah1uyVLrqEX0&amp;source=gmail&amp;ust=1658711646248000&amp;usg=AOvVaw2fSE1__G5goijkEU09jJ00</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521109%26authkey%3DABDQixPnFztRNgw&amp;source=gmail&amp;ust=1658712831063000&amp;usg=AOvVaw1axY-t73F1Qk3y8k_IN-LN</element>
+        <element>https://ejfegdj.r.bh.d.sendibt3.com/tr/cl/pRJmQKS150XwlgH6yB2tiUEKYnNVaM6H1t1BvxQNBKvkhOJaadSAd1Rp46R0CvTZzzpN1IksXSTXJPqiT70mNinNi8n4-sFjO205B91A3EX1xACaP9hXJ-zEpZ7kGPG_3fsJnCft-3yUCrIjY67B_xxVtKnmxCfH1hoXtSo_zzNNurE5Ck1DWeO3_msin5GI7ZzrqJ5khHazfOUiUzDTo9tzVsrn_TLoKF4a_O9zRarrA-9rLjW5RIaxxuVtQasz_NFwFhgXtVzWHgfxpurftCHTeZxqSH0s5B-93YnlWCwpusCsMCr5vTZ1iDIBN54u8Yhiefyfg_iO0fWPg0IekI0mdTCgPWh52bDAKc4&amp;source=gmail&amp;ust=1658799687927000&amp;usg=AOvVaw3lFFnms8dofwsxE9b9B5e_</element>
+        <element>https://onedrive.live.com/download?cid%3DCE34459DA8136B68%26resid%3DCE34459DA8136B68%2521105%26authkey%3DAIYJwN4Mgs9D0Ec&amp;source=gmail&amp;ust=1658840232378000&amp;usg=AOvVaw3zrWqDfQuoJZhTnDjPCXsC</element>
+        <element>https://ejfegdj.r.af.d.sendibt2.com/tr/cl/ZsTyMJ9QHhtZZh0ET59ASuv9qb1l4M9itAB8X8bjh5n8zdekeF43MEnbbFAaL4UnIx1ePU00T815dpX1EALQLwCbr6pQHff-rCRt4uqwsNjDxr9D0lPzZDip2xR9HxNK3ixP2D8WX3ZxrF66sStgQszjpDoo9FCveKhaOntim8Jmo0aPnHl2TrwwWewSEr6JJQ7S3w3j2RCM9gyFDLSicIMkb9Xwe90oVXuhtK56R79uADvctZA13AghzveHZJlBAJZA6REgdLX81oRy3Ky6SqorQD-85y8c_aq5asS8oCXdHqwH8iaHdPLLfZQ0f8F8DxthNsEYHFaOIG6vGXb-rjVverc6yvfn2vT5-ZE&amp;source=gmail&amp;ust=1658850294768000&amp;usg=AOvVaw1YBYLfWFRhYymV92IiVGnD</element>
+        <element>https://ejfegdj.r.bh.d.sendibt3.com/tr/cl/AfqJ_bURQnK6Nf7Tb4FKYPeyuhlTsl88avyuMiS7oyDtGVMi2JY7LMlZyIKmar1BNaXAuc-VLEXN7MdWn8Qp2cG6Z-EXeqD-mTpgExyBCi7chVa6qV1mluF7C6eeboB7FWYZmy1_xskcNYOq74ftp04NM8HesgMyILqectE4JMwIaSIzpFsycvqpiZ2xOZA0r8i0kpTAy4K8dcPKwP1LBFHRxWo2AiDKE3mDd9z9XF5p-_1Q0kuYiH7Bz1RhyyZ1DuT6-oF0ACJOKAt2saC8v-5scS6ZZQF93Nas9OiCgvdFzvnV-0it22v-8UBlUyNDtz3TntIZuibJsIuOWKkO-HTIpIvbei38H8syFS8&amp;source=gmail&amp;ust=1658668015300000&amp;usg=AOvVaw1u_NjMyKJnrdNfl0QlnafD</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521108%26authkey%3DAN9ah1uyVLrqEX0&amp;source=gmail&amp;ust=1658709746608000&amp;usg=AOvVaw3LKMaq_qcmOAqp0OsWQx9Q</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521108%26authkey%3DAN9ah1uyVLrqEX0&amp;source=gmail&amp;ust=1658711646248000&amp;usg=AOvVaw2fSE1__G5goijkEU09jJ00</element>
+        <element>https://onedrive.live.com/download?cid%3DCC042BC19C1D27F7%26resid%3DCC042BC19C1D27F7%2521109%26authkey%3DABDQixPnFztRNgw&amp;source=gmail&amp;ust=1658712831063000&amp;usg=AOvVaw1axY-t73F1Qk3y8k_IN-LN</element>
+        <element>https://ejfegdj.r.bh.d.sendibt3.com/tr/cl/pRJmQKS150XwlgH6yB2tiUEKYnNVaM6H1t1BvxQNBKvkhOJaadSAd1Rp46R0CvTZzzpN1IksXSTXJPqiT70mNinNi8n4-sFjO205B91A3EX1xACaP9hXJ-zEpZ7kGPG_3fsJnCft-3yUCrIjY67B_xxVtKnmxCfH1hoXtSo_zzNNurE5Ck1DWeO3_msin5GI7ZzrqJ5khHazfOUiUzDTo9tzVsrn_TLoKF4a_O9zRarrA-9rLjW5RIaxxuVtQasz_NFwFhgXtVzWHgfxpurftCHTeZxqSH0s5B-93YnlWCwpusCsMCr5vTZ1iDIBN54u8Yhiefyfg_iO0fWPg0IekI0mdTCgPWh52bDAKc4&amp;source=gmail&amp;ust=1658799687927000&amp;usg=AOvVaw3lFFnms8dofwsxE9b9B5e_</element>
+        <element>https://onedrive.live.com/download?cid%3DCE34459DA8136B68%26resid%3DCE34459DA8136B68%2521105%26authkey%3DAIYJwN4Mgs9D0Ec&amp;source=gmail&amp;ust=1658840232378000&amp;usg=AOvVaw3zrWqDfQuoJZhTnDjPCXsC</element>
+        <element>https://ejfegdj.r.af.d.sendibt2.com/tr/cl/ZsTyMJ9QHhtZZh0ET59ASuv9qb1l4M9itAB8X8bjh5n8zdekeF43MEnbbFAaL4UnIx1ePU00T815dpX1EALQLwCbr6pQHff-rCRt4uqwsNjDxr9D0lPzZDip2xR9HxNK3ixP2D8WX3ZxrF66sStgQszjpDoo9FCveKhaOntim8Jmo0aPnHl2TrwwWewSEr6JJQ7S3w3j2RCM9gyFDLSicIMkb9Xwe90oVXuhtK56R79uADvctZA13AghzveHZJlBAJZA6REgdLX81oRy3Ky6SqorQD-85y8c_aq5asS8oCXdHqwH8iaHdPLLfZQ0f8F8DxthNsEYHFaOIG6vGXb-rjVverc6yvfn2vT5-ZE&amp;source=gmail&amp;ust=1658850294768000&amp;usg=AOvVaw1YBYLfWFRhYymV92IiVGnD</element>
       </ExtractedInformation>
     </element>
   </Pxl>
