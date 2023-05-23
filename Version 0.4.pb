@@ -207,6 +207,8 @@ Global NewList PushedKeys.l()
 Global NewList RelativSort.Colorcode()
 Global Dim XORData.b(100000,0)
 
+Global SymbolFontNormal = LoadFont(#PB_Any, "Consolas", 8,#PB_Font_HighQuality)
+
 ;{ Regex Defaults
 AddElement(Regex()) : Regex()\Name = "Base-64"               :Regex()\Command = "[A-Za-z0-9+/]{4}[A-Za-z0-9+/]*"
 AddElement(Regex()) : Regex()\Name = "russischer Satz"       :Regex()\Command = "([А-Я]?[а-я][а-я]+(?:[,|:|;|&|\(|\)|\{|\}|\[|\]]?\s(?:\d+|[а-яA-Я]?[а-я]*)){3,}+[\.|\?|\!])"
@@ -280,6 +282,8 @@ EndProcedure
 Procedure GUI()
   Handles\window = OpenWindow(#PB_Any, 50, 50, 1100, 800, "BitMasker von J. S.", #PB_Window_SystemMenu | #PB_Window_MaximizeGadget| #PB_Window_SizeGadget | #PB_Window_ScreenCentered)
   Handles\Editor = EditorGadget(#PB_Any,0,28,WindowWidth(Handles\window)-310,WindowHeight(Handles\window),#PB_Editor_WordWrap)
+  
+  SetGadgetFont(Handles\Editor,FontID(SymbolFontNormal))
   
   Handles\Navigation = ContainerGadget(#PB_Any,0,0,100,100);{
   Handles\MaskTitle = TextGadget(#PB_Any,0,5,150,15,"Aktuell keine Maske geladen.")
@@ -1629,9 +1633,9 @@ DataSection
   image9:
   IncludeBinary "Find.png"
 EndDataSection
-; IDE Options = PureBasic 6.00 LTS (Windows - x64)
-; CursorPosition = 17
-; FirstLine = 3
+; IDE Options = PureBasic 6.01 LTS (Windows - x64)
+; CursorPosition = 209
+; FirstLine = 183
 ; Folding = AYAAIAAA+
 ; EnableThread
 ; EnableXP
